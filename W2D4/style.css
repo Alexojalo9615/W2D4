@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  background-color: white;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: black 2px solid;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 54px;
+  width: 150px;
+}
+
+/* .fa-regular :hover{
+background-color: aqua;
+
+}
+ */
+
+ .fa-1  {
+
+  opacity: 0.5;
+ }
+
+ .fa-1:hover  {
+
+  opacity: 1;
+  }
+
+
+ main {
+  display: flex;
+  background-color: white;
+  max-width: 1900px;
+  margin: auto;
+  height: 5000px;
+  justify-content: space-between;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.logo {
+  width: 200px;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 200px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.bar {
+  display: flex;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  height: 40px;
+  align-items: center;
+  width: 250px;
+  justify-content: space-around;
+}
+.bar input {
+  border: transparent;
+  background-color: whitesmoke;
+  height: 40px;
+}
+
+#parte-sx {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 50px;
+}
+
+#parte-dx {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 20px;
+}
+
+.favoriti {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: white;
+}
+
+.other {
+  display: flex;
+  height: 200px;
+  width: 350px;
+  align-items: center;
+}
+
+.other img {
+  height: 100px;
+  width: 150px;
+}
+
+.other-son {
+  width: 350px;
+  height: fit-content;
+}
+
+.first-sx-top {
+  display: flex;
+  gap: 15px;
+  padding-top: 30px;
+}
+
+.first-sx-top img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+}
+
+.first-sx-md {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.first-sx-md-1 {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.hands {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding-right: 100px;
+}
+
+.hands-2 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding-right: 50px;
+}
+
+.father-of-hands {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.hand-ins {
+  display: flex;
+}
+
+.parte-dx-1-tit {
+  align-content: space-around;
+}
+
+.parte-dx-1-tit div {
+  display: flex;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.parte-dx-1-tit img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+}
+
+#parte-dx-span1 {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+#span-joneses {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.green-list {
+  color: green;
+}
+
+.div-green-list {
+  padding-top: 20px ;
+  padding-bottom: 30px;
+}
+
+.topics {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: space-around;
+  height: 150px;
+}
+
+#recc {
+  font-size: larger;
+}
+
+.dif-topics {
+  display: flex;
+  background-color: lightgray;
+  border-radius: 20px;
+  height: 40px;
+  align-items: center;
+  width: fit-content;
+  justify-content: space-around;
+}
+
+#who {
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+#who span {
+  font-weight: bold;
+  font-size: larger;
+}
+
+#shai-li {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#shai-li img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  align-self: flex-start;
+}
+
+#shai-li-span {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.follow-text-father {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  align-content: space-between;
+ 
+}
+
+.follow-text {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.follow-bt input {
+  display: flex;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border-color: 1px black;
+  height: 40px;
+  align-items: center;
+  width: 80px;
+}
+
+#data-science {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#data-science img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  align-self: flex-start;
+}
+
+#urkaive img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  align-self: flex-start;
+}
+
+#urkaive{
+
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
